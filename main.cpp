@@ -1,14 +1,14 @@
-#include <QCoreApplication>
-#include <QCoreApplication>
+
 #include <iostream>
 #include <math.h>
+using namespace std;
 //problem1
 const double Pi = 3.14;
 double circle(double d){
     double a_circle = Pi * d/2 * d/2;
     double p_circle = Pi  * d;
-    std:: cout << "Value of area circle = "<< a_circle << std::endl;
-    std:: cout << "Value of perimeter circle = "<< p_circle << std::endl;
+     cout << "Value of area circle = "<< a_circle << endl;
+     cout << "Value of perimeter circle = "<< p_circle <<endl;
     return 0;
 }
 //double perimeter_circle(double r){
@@ -17,7 +17,7 @@ double circle(double d){
    // return p_circle;
 //}
 //problem2
-using namespace std;
+
 
 int minmax(){
 
